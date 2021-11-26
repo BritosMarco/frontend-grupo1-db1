@@ -1,0 +1,8 @@
+.add{
+    height: auto;
+}
+.add .relations{
+    display: flex;
+    flex-direction: column;
+    
+}

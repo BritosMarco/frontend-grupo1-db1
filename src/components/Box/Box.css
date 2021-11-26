@@ -1,0 +1,14 @@
+.box{
+    background-color: var(--colorBkTransp);
+    box-shadow: var(--boxShadow);
+    border-radius: var(--defaultRadius);
+    padding: 1%;
+}
+.boxtitle{
+    width: 90%;
+    text-align: center;
+    color: var(--colorFirst);
+}
+.boxtitle2{
+    margin-top: 1em;
+}

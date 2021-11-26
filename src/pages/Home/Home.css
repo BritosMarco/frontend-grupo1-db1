@@ -1,0 +1,119 @@
+.teams-list{
+    justify-self: flex-start;
+    width: 90%;
+    height: auto;
+    max-height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--colorBkTransp);
+    box-shadow: var(--boxShadow);
+    overflow: scroll;
+}
+.teams-item{
+    padding: 0;
+    margin:1%;
+    width: 23%;
+    height: auto;
+    background-color: var(--colorMargin);
+}
+.teams-item a{
+    flex-direction: column;
+    padding-top: 0.5em;
+}
+.team-score-color{
+    width: 90%;
+    height: 0.1em;
+    border: none;
+}
+.alert{
+    background-color: var(--colorAlert);
+}
+.ok {
+    background-color: var(--colorOk);
+}
+.atention{
+    background-color: var(--colorAtention);
+}
+.select{
+    width: 90%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: var(--colorFourth);
+    box-shadow: var(--boxShadow);
+    opacity: 0.8;
+}
+.select-item{
+    font-size: 1em;
+    height: 2em;
+    width: auto;
+    margin-right:1em;
+    border: none;
+    outline: none;
+    background-color:var(--colorFourth);
+    color: var(--colorFirst);
+    font-weight: 600;
+}
+.select-item option{
+    background-color:var(--colorFourth);
+    color: var(--colorFirst);
+}
+.select-item:focus{
+    border:none;
+    outline: none;
+    outline-offset: none;
+}
+.select-item{
+    margin-right: 1em;
+}
+
+
+@media only screen and (orientation: landscape) {
+ 
+    @media only screen and (max-width: 600px) {
+        .teams-list .teams-item{
+            width: 48.5%;
+        }
+  }
+    @media only screen and (max-width: 768px) {
+     
+  }
+    @media only screen and (max-width: 992px) {
+      
+  }
+    @media only screen and (min-width: 993px) {
+  }
+}
+  @media only screen and (orientation: Portrait) {
+    
+    @media only screen and (max-width: 400px) {
+        .teams-list .teams-item{
+            width: 98%;
+        }
+    }
+    @media only screen and (min-width: 993px) {
+        .teams-list .teams-item{
+            width: 23%;
+        }
+    }
+  }
+  .select{
+    color:var(--colorFirst);
+  }
+  .team-title{
+      display: flex;
+      width: 30%;
+      justify-self: center;
+      align-self: center;
+  }
+  .team-name{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 3em;
+  }

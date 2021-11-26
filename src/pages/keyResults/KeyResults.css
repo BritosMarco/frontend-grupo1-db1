@@ -1,0 +1,9 @@
+.keyresults{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.keyresults .key-results-list{
+    max-height: 70%;
+}
